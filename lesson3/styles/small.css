@@ -15,7 +15,7 @@ footer {
     display: flex;
     text-align: center;
     box-shadow: 0 10px 10px 0 #777;
-    background-color: #89B6A5;
+    background-color: #C9EDDC;
 	padding: .75rem;
 	
 }
@@ -80,7 +80,7 @@ nav ul {
 }
 nav ul li a {
 	display: block;
-	color: #6A706E;
+	color: #4C3B4D;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
