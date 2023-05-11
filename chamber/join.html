@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <title>Join</title>
+    <meta name="description" content="Join the chamber of commerce today!">
+</head>
+
+<body>
+    <header>
+
+        <div class="logo-box">
+            <img src="./images/logo.webp" alt="logo" loading="lazy" width="75" height="50">
+            <div class="main-title">Socorro County</div>
+        </div>
+        <div class="sub-header">Chamber of Commerce</div>
+
+        <nav id="navigation" class="nav">
+            <div><a href="../chamber">Home</a></div>
+            <div><a href="./discover.html">Discover</a></div>
+            <div><a href="directory.html">Directory</a></div>
+            <div><a href="join.html">Join</a></div>
+            <div><a href="contact.html">Contact</a></div>
+        </nav>
+        <button id="hamburger"><span> ☰ </span></button>
+        <div class="social">
+            <div>
+                <a href="http://facebook.com/"><img src="images/facebook.webp" alt="Facebook" loading="lazy"></a>
+            </div>
+            <div>
+                <a href="http://linkedin.com"><img src="images/linkedn.webp" alt="linkedn" loading="lazy"></a>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <form method="get" action="thankyou.html">
+            <label class="top">First Name<input type="text" name="first" required></label>
+            <label class="top">Last Name<input type="text" name="last" required></label>
+            <label class="top">Email<input type="email" name="email" required placeholder="user@example.com"></label>
+            <label class="top">Phone Number<input type="tel" name="phone" required></label>
+            <label class="top">Business Name<input type="text" name="business" required></label>
+            <div>
+                <div>
+                    <input name="member" id="member1" value="member1" type="radio">
+                    <label for="member1">NP Membership - $0</label>
+                    <p class="member-des">Nonprofit Membership. Control and advertise your business in the community.</p>
+                </div>
+                <div>
+                    <input name="member" id="member2" value="member2" type="radio">
+                    <label for="member2">Bronze Membership - $10</label>
+                    <p class="member-des">View detailed stats about your business. And control and advertise your business.</p>
+                </div>
+                <div>
+                    <input name="member" id="member3" value="member3" type="radio">
+                    <label for="member3">Silver Membership - $15</label>
+                    <p class="member-des">Get support for your business and view realtime stats for your business.</p>
+                </div>
+                <div>
+                    <input name="member" id="member4" value="member4" type="radio">
+                    <label for="member4">Gold Membership - $20</label>
+                    <p class="member-des">Get support for your business, view realtime stats for your business, and get access to guides on how to grow your business.</p>
+                </div>
+                <div>
+                    <label>Describe Your Business:<textarea name="description" cols="40" rows="10" id="description"></textarea></label>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+                <label><input type="hidden" id="date" name="date"></label>
+
+            </div>
+        </form>
+    </main>
+
+    <footer>
+
+        <div>&copy;<span id="year">2022</span> | Wyatt Moore | New Mexico | WDD-230 Project</div>
+        <span id="updated"></span>
+        <p>Contact: socorrochamberofcommerce@gmail.com</p>
+        <p>(555)-555-0134</p>
+        <a href="#">Location</a>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
