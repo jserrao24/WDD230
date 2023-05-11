@@ -9,7 +9,7 @@ apiFetch(url);
 
 function displayResults (weatherData) {
     currentTemp.innerHTML = Math.round((weatherData.main.temp.toFixed(0) - 32) * (5/9));
-    const weatherimagesrc = `https://antonio-saucedo.github.io/wdd230/chamber/images/weatherIcons/${weatherData.weather[0].icon}.png`;
+    const weatherimagesrc = `png`;
 
     // Capitalize first letter of each word.
     const descweather = weatherData.weather[0].description;
