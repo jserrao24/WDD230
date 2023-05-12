@@ -362,3 +362,14 @@ button:hover {
     width: 30px;
     transition: width 800ms;
 }
+           /* new styles for the third column */
+        .third-column {
+            grid-column: 1 / 4;
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 10em;
+        }
+        .third-column > div {
+            background-color: #3b0c0c;
+            padding: 0em;
+        }

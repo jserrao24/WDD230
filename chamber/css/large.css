@@ -54,4 +54,16 @@
         grid-template-columns: 1fr;
     }
 
+           /* new styles for the third column */
+           .third-column {
+            grid-column: 3 / 4;
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 1em;
+        }
+        .third-column > div {
+            background-color: #f0f0f0;
+            padding: 1em;
+        }
+
 }
