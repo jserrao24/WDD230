@@ -301,6 +301,7 @@ footer {
     height: 100%;
     width: 100%;
     position: relative;
+    
 }
 
 .action a {
@@ -364,7 +365,7 @@ button:hover {
 }
            /* new styles for the third column */
         .third-column {
-            grid-column:  / 4;
+            grid-column: 3 / 4;
             display: grid;
             grid-template-rows: repeat(2, 1fr);
             grid-gap: 10em;
