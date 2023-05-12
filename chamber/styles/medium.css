@@ -1,0 +1,109 @@
+@media only screen and (min-width: 35em) {
+    header, nav, main,section, article, footer {
+        max-width:1028px;
+    }
+    .do {
+        display: grid;
+        grid-area: do;
+        text-align: left;
+        padding-left: 0.5rem;
+        border: 2px solid #E8D152;
+        margin: 0.5rem;
+    }
+    .grid-home {
+        display: grid;
+        row-gap: 0.3rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        'hero hero' 
+        'news-release news-release'
+        'article article'
+        'do do'
+        'event weather';
+    }
+    .hero {
+        grid-area: hero;
+    }
+    .news-release {
+        grid-area: news-release;
+    }
+    .event {
+        grid-area: event;
+    }
+    .weather {
+        grid-area: weather;
+    }
+    .article {
+        display: grid;
+        grid-area: article;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0.2rem;
+        grid-template-areas: 'spotlight-1 spotlight-2';
+    }
+    .spotlight-1 {
+        grid-area: spotlight-1;
+    }
+    .spotlight-2 {
+        grid-area: spotlight-2;
+    }
+    p.base {display: none;}
+    p.medium {display: block;}  
+    nav ul {
+        line-height: 1.5em;
+        font-size: 1.3rem;
+    }
+    .logo {
+        max-width: 120px;
+      }
+    .logo:hover {
+        max-width: 120px;
+    }
+    .title h2 {
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+        line-height: 0.8em;
+        margin: 0.1em 0;
+    }
+    .m {
+    font-size: 1rem;
+    }
+    .social img {
+        max-width: 40px;
+    }
+    footer div { margin-bottom: 0;}
+    .grid-footer {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.5rem;
+        align-items: center;
+	    justify-content: space-around;
+        padding: 0.3rem;
+    }
+    .logo-footer {
+        display: flex;
+        flex-direction: row;
+        flex: 0 1 300px;
+        text-align: left;
+    }
+    .address h2 { 
+        font-size: 1rem;
+        line-height: 1.4em;
+        margin-bottom: 0.1rem;
+    }
+    .address {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.4rem;  
+    }
+    p.l {
+        line-height: 1.5em;
+        margin-bottom: 0.1rem;
+    }
+    .locaction {
+        flex: 0 1 300px;
+        font-size: 1.2rem;
+    }
+    footer div p {
+        margin-top: 0;
+    }
+}    

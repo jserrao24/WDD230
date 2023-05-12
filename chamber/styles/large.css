@@ -1,0 +1,105 @@
+@media only screen and (min-width: 64em) {
+    header, nav, main, section, article, footer {
+        max-width: 1800px;
+    }
+    nav button { display: none; }
+    .logo-header {
+        flex: 2 1 100px;
+    }
+    #primaryNav-1 {
+        display:flex;
+        flex-direction: row; 
+        flex: 8 1 100px;
+    }
+    nav ul{
+        font-size: 1rem;
+        padding-left: 2rem;
+    }
+    .social {
+        flex: 1 1 120px;
+    }
+    nav ul li a {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    nav ul li a:hover{
+        background: linear-gradient(90deg, transparent, #427198, transparent) bottom /
+        var(--d, 0) 3px no-repeat;
+        --d: 75%;
+        font-weight: bold;
+    }
+    .active{
+	    font-weight: bold;
+	    background: linear-gradient(90deg, transparent, #ffffff, transparent) bottom /
+	    var(--d) 3px no-repeat;
+	    --d: 75%;
+    }
+    .grid-home {
+        display: grid;
+        row-gap: 0.3rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        min-height: 800px;
+        grid-template-areas:
+        'event hero hero article'
+        'weather hero hero article'
+        'do news-release news-release article';
+    }
+    .do {
+        grid-area: do;
+    }
+    .hero {
+        grid-area: hero;
+    }
+    .news-release {
+        grid-area: news-release;
+    }
+    .event {
+        grid-area: event;
+    }
+    .weather {
+        grid-area: weather;
+    }
+    .article {
+        display: grid;
+        grid-area: article;
+        grid-template-areas: 
+        'spotlight-1 spotlight-1'
+        'spotlight-2 spotlight-2'
+        'spotlight-3 spotlight-3';
+    }
+    .spotlight-1 {
+        grid-area: spotlight-1;
+    }
+    .spotlight-2 {
+        grid-area: spotlight-2;
+    }
+    .spotlight-3 {
+        display: grid;
+        grid-area: spotlight-3;
+        text-align: left;
+        padding-left: 0.5rem;
+        border: 2px solid #E8D152;
+    }
+    p.lf {
+    font-size: 1rem;
+    }
+    .address h2 { 
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .address {
+        margin-left: 0.6rem;  
+        justify-content: center;
+    }
+    .logo-footer {
+        flex: 0 1 450px;    
+    }
+    .locaction {
+        flex: 0 1 450px;
+        font-size: 1.6rem;
+    }   
+}    
