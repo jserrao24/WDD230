@@ -365,9 +365,9 @@ button:hover {
 }
            /* new styles for the third column */
         .third-column {
-            grid-column: 3 / 4;
+            grid-column: 1 / 4;
             display: grid;
-            grid-template-rows: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 1fr);
             grid-gap: 10em;
         }
         .third-column > div {
