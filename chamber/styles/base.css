@@ -14,7 +14,7 @@ body {
     line-height: 1.5;
 }
 header {
-    background-color: #CA3F36;
+    background-color: #0b1442;
     color: #ffffff;
 	align-items: center;
 	justify-content: space-between;
@@ -50,14 +50,13 @@ header, main, footer {
     display: flex;
     flex:1 1 40px
 }
-.rivoli-nav {
+.hawaii-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-left: 0.5rem;
 }
-.rivoli-nav-1 {
-    display: none;
+
 }
 nav button {
     margin: .1rem 1vw; 
