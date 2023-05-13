@@ -146,7 +146,7 @@ main h3 {
 main p {
     font-size: 0.9rem;
 	padding: 1em;
-	text-align: left;
+	text-align: right;
 	margin: auto;
 }
 .logo {
@@ -161,13 +161,13 @@ main p {
 .grid-home {
 	display: grid;
 	grid-template-columns: 1fr;	
-	text-align:left;
+	text-align:right;
     padding-left: 0.5rem;
 }
 .hero, .event, .weather, .news-release, .article{
 	display: grid;
 	grid-template-columns: 1fr;	
-	text-align: left;
+	text-align: right;
     padding-left: 0.5rem;
     border: 2px solid #e96316;
     margin: 0.5rem;
@@ -177,7 +177,7 @@ main p {
 .spotlight-1, .spotlight-2 {
     display: grid;
 	grid-template-columns: 1fr;	
-	text-align: left;
+	text-align: right;
     padding-left: 0.5rem;
     border: 2px solid #e96316;
   /* margin: 0.5rem;*/
