@@ -48,7 +48,7 @@ header, main, footer {
 }
 .social {
     display: flex;
-    flex:1 1 40px
+    flex:1 1 100px
 }
 .hawaii-nav {
     display: flex;
@@ -83,10 +83,10 @@ margin: 1rem auto;
 }
 .social img {
     margin-left: 0.5rem;
-    max-width: 20px;
+    max-width: 50px;
 }
 .social {
-    align-items: center;
+    align-items: right;
 }
 .date {
 	text-align: center;
