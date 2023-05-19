@@ -20,6 +20,10 @@ header {
 	justify-content: space-between;
     padding: 0.3rem;
 }
+#banner {
+    display: none;
+    /* Additional styles for the banner */
+  }
 
 header, main, footer {
     margin: 0 auto;

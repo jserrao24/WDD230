@@ -21,6 +21,12 @@
         'do do'
         'event weather';
     }
+
+    #banner {
+        display: none;
+        /* Additional styles for the banner */
+      }
+
     .hero {
         grid-area: hero;
     }
