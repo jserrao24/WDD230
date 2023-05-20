@@ -36,6 +36,10 @@
         --d: 75%;
         font-weight: bold;
     }
+    .spotlight-image {
+        width: 100%;
+        height: auto;
+      }
     .active{
 	    font-weight: bold;
 	    background: linear-gradient(90deg, transparent, #ffffff, transparent) bottom /

@@ -59,13 +59,13 @@ header {
     display: flex;
     flex:1 1 40px;
 }
-.rivoli-nav {
+.hawaii-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-left: 0.5rem;
 }
-.rivoli-nav-1 {
+.hawaii-nav-1 {
     display: none;
 }
 nav button {
@@ -371,3 +371,4 @@ p.medium {display: none;}
     width: 100%;
   }
 }
+
