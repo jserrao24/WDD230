@@ -33,7 +33,7 @@
         display: grid;
         grid-area: do;
         padding-left: 0.5rem;
-        border: 7px ridge #E8D152;
+        border: 7px ridge #48499c;
         margin: 0.5rem;
     }
     .grid-home {

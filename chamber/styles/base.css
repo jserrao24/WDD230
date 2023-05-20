@@ -170,7 +170,7 @@ nav ul li a:hover {
 .event, .weather, .news-release, .article{
 	display: grid;
 	grid-template-columns: 1fr;	
-    border: 7px ridge #06227c;
+    border: 1px ridge #06227c;
     /*border: 4px solid #E8D152;
     box-shadow: 0 0 0.5em #8f1108;*/
    /* box-shadow: 0 0 1em #CA3F36, 0 0 2em #da5f56;*/
@@ -181,7 +181,8 @@ nav ul li a:hover {
 .spotlight-1, .spotlight-2{
     display: grid;
 	grid-template-columns: 1fr;	
-    border: 5px outset #574a04;
+    border: 5px outset #010b13;
+    
 }
 .spotlight-3 {display: none;}
 
@@ -211,7 +212,7 @@ nav ul li a:hover {
 .join{
    background-color: #427198;
    color: #ffffff;
-   border: 5px outset #E8D152;
+   border: 5px outset #144399;
    text-decoration: none;
    font-size: 0.9rem;
    font-weight: 600;
@@ -220,7 +221,7 @@ nav ul li a:hover {
    padding: 10px;
 }
 .join:hover {
-    background-color: #CA3F36;
+    background-color: #5b4ea1;
 }
 .hero-img-b {
     width: 100%;
@@ -233,7 +234,7 @@ nav ul li a:hover {
 
 /*general main */
 .logo-header h2 {
-    text-shadow: 1px 1px 2px #8f1108, 0 0 25px #da5f56, 0 0 5px #740f08;
+    text-shadow: 1px 1px 2px #8f1108, 0 0 25px #5f56da, 0 0 5px #227ebb;
 }
 .event p {
    border: 2px dashed rgb(238, 74, 102);
@@ -253,7 +254,7 @@ nav ul li a:hover {
 }
 main article {
 	line-height: 1.2;
-	border: 7px ridge #E8D152;
+	border: 7px ridge #17969b;
     background-color: #427198;
     color: #ffffff;
     font-weight: 400;
@@ -291,7 +292,7 @@ main p {
 .join-1 {
     background-color: #427198;
     color: #ffffff;
-    border: 5px outset #E8D152;
+    border: 5px outset #b0a8d4;
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
@@ -302,7 +303,7 @@ main p {
     padding: 15px 15px;
  }
  .join-1:hover {
-    background-color: #CA3F36;
+    background-color: #3676ca;
 }
 .weather img {
     max-width: 100%;
@@ -319,14 +320,14 @@ main p {
 .article p a {
     color: #ffffff;
 }
-.article p a:hover {color: #E8D152;}
+.article p a:hover {color: #52d7e8;}
 /*footer*/
 
 footer {
     display: grid;
 	grid-template-columns: 1fr;	
 	text-align: center;
-    background-color: #CA3F36;
+    background-color: #849dee;
     color: #ffffff;
 	line-height:1.2rem;
     padding: 0.5rem;
