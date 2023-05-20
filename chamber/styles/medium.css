@@ -2,58 +2,10 @@
     header, nav, main,section, article, footer {
         max-width:1028px;
     }
-    .do {
-        display: grid;
-        grid-area: do;
-        text-align: left;
-        padding-left: 0.5rem;
-        border: 2px solid #e96316;
-        margin: 0.5rem;
+    /*header*/
+    .banner {
+        font-size: 1rem;
     }
-    .grid-home {
-        display: grid;
-        row-gap: 0.3rem;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-        'hero hero' 
-        'news-release news-release'
-        'article article'
-        'do do'
-        'event weather';
-    }
-
-    #banner {
-        display: none;
-        /* Additional styles for the banner */
-      }
-
-    .hero {
-        grid-area: hero;
-    }
-    .news-release {
-        grid-area: news-release;
-    }
-    .event {
-        grid-area: event;
-    }
-    .weather {
-        grid-area: weather;
-    }
-    .article {
-        display: grid;
-        grid-area: article;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 0.2rem;
-        grid-template-areas: 'spotlight-1 spotlight-2';
-    }
-    .spotlight-1 {
-        grid-area: spotlight-1;
-    }
-    .spotlight-2 {
-        grid-area: spotlight-2;
-    }
-    p.base {display: none;}
-    p.medium {display: block;}  
     nav ul {
         line-height: 1.5em;
         font-size: 1.3rem;
@@ -74,14 +26,96 @@
     font-size: 1rem;
     }
     .social img {
-        max-width: 50px;
+        max-width: 40px;
     }
+    /*main*/
+    .do {
+        display: grid;
+        grid-area: do;
+        padding-left: 0.5rem;
+        border: 7px ridge #E8D152;
+        margin: 0.5rem;
+    }
+    .grid-home {
+        display: grid;
+        row-gap: 0.3rem;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas:
+        'hero hero hero hero hero hero' 
+        'news-release news-release news-release news-release news-release news-release'
+        'article article article article article article'
+        'do do do do do do'
+        'event event event event weather weather';
+    }
+    .hero {
+        grid-area: hero;
+        margin-top: 1rem;
+    }
+    .news-release {
+        grid-area: news-release;
+    }
+    .event {
+        grid-area: event;
+        margin-bottom: 1rem;
+    }
+    .weather {
+        grid-area: weather;
+        margin-bottom: 1rem;
+    }
+    .article {
+        display: grid;
+        grid-area: article;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas: 'spotlight-1 spotlight-1 spotlight-1 spotlight-2 spotlight-2 spotlight-2';
+        /*column-gap: 1rem;*/
+        padding: 1rem;
+    }
+    .spotlight-1 {
+        grid-area: spotlight-1;
+    }
+    .spotlight-2 {
+        grid-area: spotlight-2;
+    }
+    .home-title {
+        font-size: 1.8rem;
+        margin-top: 0.5rem;
+     }
+    
+    .join {
+        padding: 10px 15px;
+        font-size: 1.4rem;
+    }
+    .do p {
+        padding-top: 1.5rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .join-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.4rem;
+    }
+    main h2 {
+        font-size: 1.4rem;
+    }   
+    main h3 {
+        font-size: 1.1rem; 
+    }
+    main p {
+        font-size: 1rem;
+    }
+   /*footer*/
+    p.base {display: none;}
+    p.medium {display: block;}  
+   
+    .date {padding: 0.3rem;}
     footer div { margin-bottom: 0;}
     .grid-footer {
         display: flex;
         flex-direction: row;
         margin-left: 0.5rem;
-        align-items: left;
+        align-items: center;
 	    justify-content: space-around;
         padding: 0.3rem;
     }

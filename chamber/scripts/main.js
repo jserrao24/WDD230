@@ -2,7 +2,7 @@ const banner = document.getElementById("banner");
 const currentDate = new Date();
 const currentDay = currentDate.getDay();
 
-if (currentDay === 1 || currentDay === 2) {
+if (currentDay === 1 || currentDay === 3) {
   banner.style.display = "block";
 }
 
