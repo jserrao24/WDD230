@@ -2,8 +2,10 @@ const banner = document.getElementById("banner");
 const currentDate = new Date();
 const currentDay = currentDate.getDay();
 
-if (currentDay === 1 || currentDay === 3) {
+if (currentDay === 3) { // Wednesday is represented by 3 (0 for Sunday, 1 for Monday, and so on)
   banner.style.display = "block";
+} else {
+  banner.style.display = "none"; // Hide the banner on days other than Wednesday
 }
 
 const lastUpdated = new Date(document.lastModified);

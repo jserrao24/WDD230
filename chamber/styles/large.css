@@ -53,6 +53,8 @@
         'event hero hero article'
         'weather hero hero article'
         'do news-release news-release article';
+        margin: 0 auto; /* Center the grid */
+        max-width: 1200px; /* Adjust the maximum width as per your preference */
     }
     .do {
         grid-area: do;

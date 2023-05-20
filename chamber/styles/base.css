@@ -8,7 +8,7 @@ header, nav, main, footer {
     max-width:560px;
 }
 body {
-    font-family: 'Almarai', arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5;
 }
 
@@ -18,7 +18,7 @@ header, main, footer {
 
 /*header*/
 header {
-    background-color: #CA3F36;
+    background-color: #849dee;
     color: #ffffff;
 	align-items: center;
 	justify-content: space-between;
@@ -27,7 +27,7 @@ header {
 .banner {
     text-align: center;
     border-radius: 10px;
-    border:3px dashed #da5f56;
+    border:3px dashed #2a27d6;
     line-height: 0.1em;
     font-size: 0.6rem;
     margin-bottom: 0.5rem;
@@ -102,12 +102,12 @@ margin: 1rem auto;
 .date {
 	text-align: center;
     margin: 0.4rem;
-    border: 5px outset #da5f56;
+    border: 5px outset #28484e;
     font-weight: bold;
     letter-spacing: 0.2em;
     padding: 0.2rem;
     line-height: 0;
-   text-shadow: 1px 1px 2px #8f1108, 0 0 25px #da5f56, 0 0 5px #740f08;
+   text-shadow: 1px 1px 2px #8f082a, 0 0 25px #0d694b, 0 0 5px #740f08;
 }
 nav ul {display: none;}
 nav ul.open {display: block;}
@@ -170,7 +170,7 @@ nav ul li a:hover {
 .event, .weather, .news-release, .article{
 	display: grid;
 	grid-template-columns: 1fr;	
-    border: 7px ridge #E8D152;
+    border: 7px ridge #06227c;
     /*border: 4px solid #E8D152;
     box-shadow: 0 0 0.5em #8f1108;*/
    /* box-shadow: 0 0 1em #CA3F36, 0 0 2em #da5f56;*/
@@ -181,7 +181,7 @@ nav ul li a:hover {
 .spotlight-1, .spotlight-2{
     display: grid;
 	grid-template-columns: 1fr;	
-    border: 5px outset #E8D152;
+    border: 5px outset #574a04;
 }
 .spotlight-3 {display: none;}
 
@@ -191,7 +191,7 @@ nav ul li a:hover {
 	grid-template-columns: 1fr 4fr 1fr;	
     grid-template-rows: 1fr 3fr 1fr 0.5fr;
 	text-align: center;
-    border: 7px ridge #E8D152;
+    border: 7px ridge #1883b4;
     margin: 0.5rem;
 }
 #hero-box {
