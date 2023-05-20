@@ -15,7 +15,7 @@ body {
   header {
       display: flex;
       background-color:#9da9c9;
-      text-align: center;
+      text-align: left;
       border-radius: 10px;
       box-shadow: 0 10px 10px 0 #000000;
   }

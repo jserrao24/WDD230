@@ -27,7 +27,7 @@
     nav ul li a {
         display: block;
         color: #ffffff;
-        text-align: center;
+        text-align: left;
         text-decoration: none;
         transition: 0.5s;
     }
@@ -95,11 +95,11 @@
     }
     .address h2 { 
         font-size: 1.4rem;
-        text-align: center;
+        text-align: left;
     }
     .address {
         margin-left: 0.6rem;  
-        justify-content: center;
+        justify-content: left;
     }
     .logo-footer {
         flex: 0 1 450px;    
