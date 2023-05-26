@@ -55,9 +55,19 @@
     <main class="grid-home">
         <div class="hero">
             <div id="hero-box">
-                <img class="hero-img-g" src="images/hawaii-images-08316-1.jpg" alt="hawaii"> 
-                <img class="hero-img-b" src="images/hawaii-images-08316-1.jpg" alt="hawaii">
+                <picture class="hero-img">
+                    <source media="(max-width: 560px)" srcset="images/wdd230-org-550-small.jpg">          
+                    <source media="(max-width: 1028px)" srcset="images/wdd230-org-1000-medium.jpg">          
+                    <source media="(max-width: 1800px)" srcset="images/wdd230-org-800-large.jpg">
+                    <img src="images/wdd230-org.jpg" alt="hero">        
+                </picture>
+               <!-- <picture class="hero-img">
+                <source media="(max-width: 560px)"  srcset="images/rivoli-550.jpg" alt="view of Rivoli" > 
+                <source media="(max-width: 1028px)" srcset="images/rivoli-1000-l.jpg"  alt="wide view of Rivoli">
+                <source media="(max-width: 1800px)" srcset="images/rivoli-800-h.jpg" alt=" high view of Rivoli"> 
+                <img src="images/rivoli-1000-h.jpg" alt="Rivoli">  -->    
             </div>
+              
             <h1 class="home-title">Hawaii Chamber of Commerce</h1>
             <div class="button-box">
                 <a class="join" href="#">Join!</a>
