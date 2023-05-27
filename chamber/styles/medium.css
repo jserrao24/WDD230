@@ -61,6 +61,7 @@
     .weather {
         grid-area: weather;
         margin-bottom: 1rem;
+        
     }
     .article {
         display: grid;
