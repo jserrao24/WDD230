@@ -1,0 +1,63 @@
+body {
+    background: radial-gradient(4rem,
+    rgba(255,255,255,0) 80%, 
+    #778691 80%, #778691 99%, 
+    rgba(255,255,255, 0) 
+    ) 0 0,
+    radial-gradient(4rem,
+    rgba(255,255,255,0) 80%, 
+    #778691 80%, #778691 99%,  
+    rgba(255,255,255, 0) 
+    ) 4em 4em,
+    radial-gradient(4.7rem,
+    rgba(255,255,255,0) 50%, 
+    #B1C2B3 50%,
+    #B1C2B3 75%, #B1C2B3 99%, 
+    rgba(255,255,255, 0) 
+    ) 4em 4em,
+    radial-gradient(4.7rem,
+    rgba(255,255,255,0) 50%, 
+    #B1C2B3 50%,
+    #F5FCD0 75%, #B1C2B3 99%, 
+    rgba(255,255,255, 0) 
+    ) 0 0;
+  background-size: 8rem 8rem;
+  background-color: #F5FCD0;
+}
+main {
+    display: block;
+    text-align: center;
+}
+.background {
+    background-color: blanchedalmond;
+    max-width: 100vw;
+    margin: 2rem auto;
+    border: 2px solid #778691;
+    border-radius: 10px;
+    padding-bottom: 1.5rem;
+    box-shadow: 0 0 1em black, 0 0 2em #696969;
+}
+main h1 {
+    margin: 2rem;
+}
+main picture {
+    display: block;
+    padding: 0.5rem;
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 400px) {
+    .background {
+        max-width: 80vw;
+    }    
+}
+@media only screen and (min-width: 700px) {
+    .background {
+        max-width: 60vw;
+    }    
+}
+@media only screen and (min-width: 1100px) {
+    .background {
+        max-width: 40vw;
+    }
+}
