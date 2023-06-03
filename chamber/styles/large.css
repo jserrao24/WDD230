@@ -179,4 +179,9 @@
         flex: 0 1 450px;
         font-size: 1.6rem;
     }   
-}    
+    /*discover*/
+    .discover h1 { font-size: 2rem;}
+    .background { max-width: 60vw;}
+    .background1 { max-width: 40vw;}
+}   
+  

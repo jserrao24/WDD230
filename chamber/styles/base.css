@@ -47,6 +47,28 @@ header {
     flex-direction: column;
     margin-left: 0.5rem;
 }
+.discover { text-align: center;}
+.background {
+    max-width: 85vw;
+    margin: 2rem auto;
+    
+    border-radius: 10px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+    text-align: center;
+}
+.background1 {
+    max-width: 70vw;
+    margin: 1rem auto;
+    border: 7px outset #52b1e8;
+    border-radius: 10px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    box-shadow: 0 0 1em black, 0 0 2em #696969;
+   
+}
+
 .title h2 {
     font-size: 1.1rem;
     line-height: 0.2em;
