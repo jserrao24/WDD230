@@ -1,6 +1,15 @@
-table {
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+  }
+  
+  table {
     border-collapse: collapse;
+    max-width: 800px;
     width: 100%;
+    margin-top: 50px;
   }
   
   th, td {
