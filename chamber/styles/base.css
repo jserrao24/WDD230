@@ -412,5 +412,61 @@ p.medium {display: none;}
     margin-left: 0%;
     width: 100%;
   }
+/* styles/join.css */
 }
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+  
+  .form-field {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Adjust the form width and padding per my preference , make this screen small cause it looks cleaner then stretching*/
+  
+  @media screen and (max-width: 767px) {
+    form {
+      width: 90%;
+    }
+  }
+  
+ 
+  
 
