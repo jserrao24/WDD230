@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Facebook Authentication Example</title>
-    <link rel="stylesheet" type="text/css" href="example1.css">
+  <title>Facebook Login Example</title>
+  <script src="example1.js"></script>
+  <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0" nonce="your_nonce_value_here" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="fb-root"></div>
+  <div id="fb-root"></div>
 
-    <button id="login-button">Login with Facebook</button>
-
-    <script src="example1.js"></script>
-    <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0&appId=YOUR_APP_ID&autoLogAppEvents=1"></script>
+  <!-- The Facebook login button -->
+  <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="true" onlogin="checkLoginState();"></div>
 </body>
 </html>
