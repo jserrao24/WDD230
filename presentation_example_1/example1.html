@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Split Code Example</title>
+    <title>Facebook Authentication Example</title>
     <link rel="stylesheet" type="text/css" href="example1.css">
 </head>
 <body>
     <div id="fb-root"></div>
 
-    <div id="spinner">
-        Loading
-        <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-use-continue-as="true"></div>
-    </div>
+    <button id="login-button">Login with Facebook</button>
 
     <script src="example1.js"></script>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0&appId=YOUR_APP_ID&autoLogAppEvents=1"></script>
 </body>
 </html>
