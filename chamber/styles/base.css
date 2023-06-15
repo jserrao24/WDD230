@@ -16,6 +16,31 @@ header, main, footer {
     margin: 0 auto;
 }
 
+/*Business Directory Style Bender */
+
+.business-directory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .business-directory h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .directory-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 1.5rem;
+    padding: 0 1rem;
+  }
+
 /*header*/
 header {
     background-color: #849dee;
@@ -465,6 +490,7 @@ p.medium {display: none;}
     form {
       width: 90%;
     }
+
   }
   
  

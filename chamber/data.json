@@ -1,0 +1,77 @@
+{
+    "businesses": [
+      {
+        "name": "Hawaii Coffee Co.",
+        "address": "1234 Paradise Avenue, Honolulu, HI",
+        "phone": "808-555-1234",
+        "website": "http://www.hawaiicoffee.com",
+        "image": "hawaiicoffee.jpg",
+        "membership_level": "Gold"
+      },
+      {
+        "name": "Aloha Shave Ice",
+        "address": "5678 Beach Road, Lahaina, HI",
+        "phone": "808-555-5678",
+        "website": "http://www.alohashaveice.com",
+        "image": "alohashaveice.jpg",
+        "membership_level": "Silver"
+      },
+      {
+        "name": "Hula Grill Waikiki",
+        "address": "910 Waikiki Beach Walk, Honolulu, HI",
+        "phone": "808-555-9101",
+        "website": "http://www.hulagrillwaikiki.com",
+        "image": "hulagrillwaikiki.jpg",
+        "membership_level": "Bronze"
+      },
+      {
+        "name": "Island Treasures Art Gallery",
+        "address": "2345 Art Avenue, Kailua-Kona, HI",
+        "phone": "808-555-2345",
+        "website": "http://www.islandtreasuresart.com",
+        "image": "islandtreasuresart.jpg",
+        "membership_level": "Silver"
+      },
+      {
+        "name": "Paradise Tours",
+        "address": "6789 Tourist Lane, Kapaa, HI",
+        "phone": "808-555-6789",
+        "website": "http://www.paradisetours.com",
+        "image": "paradisetours.jpg",
+        "membership_level": "Gold"
+      },
+      {
+        "name": "Tropical Spa Retreat",
+        "address": "123 Palm Avenue, Wailea, HI",
+        "phone": "808-555-1234",
+        "website": "http://www.tropicalsparetreat.com",
+        "image": "tropicalsparetreat.jpg",
+        "membership_level": "Bronze"
+      },
+      {
+        "name": "Sunset Luau",
+        "address": "456 Sunset Road, Poipu, HI",
+        "phone": "808-555-4567",
+        "website": "http://www.sunsetluau.com",
+        "image": "sunsetluau.jpg",
+        "membership_level": "Silver"
+      },
+      {
+        "name": "Kona Brewing Company",
+        "address": "789 Brewery Lane, Kailua-Kona, HI",
+        "phone": "808-555-7890",
+        "website": "http://www.konabrewingco.com",
+        "image": "konabrewingco.jpg",
+        "membership_level": "Gold"
+      },
+      {
+        "name": "Maui Surf School",
+        "address": "101 Surf Street, Lahaina, HI",
+        "phone": "808-555-1010",
+        "website": "http://www.mauisurfschool.com",
+        "image": "mauisurfschool.jpg",
+        "membership_level": "Bronze"
+      }
+    ]
+  }
+  
