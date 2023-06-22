@@ -2,7 +2,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=469d08767726e86d91a1d36a7ca94b61';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=9e2c021cc17346bd515b672155d1d63c';
 
 async function apiFetch() {
   try {
