@@ -9,4 +9,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Display the form-loaded time on the page
     const submittedTimeElement = document.querySelector('.submitted-time');
-    submittedTimeElement.textContent = 'Form submitted at: ' + formLoadedTime;
+    submittedTimeElement.textContent = 'Thank you! Form submitted at: ' + formLoadedTime;
