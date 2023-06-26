@@ -5,7 +5,7 @@
       "address": "1234 Paradise Avenue, Honolulu, HI",
       "phone": "808-555-1234",
       "website": "http://www.hawaiicoffee.com",
-      "image": "hawaiicoffee.jpg",
+      "image": "https://cdn11.bigcommerce.com/s-9wlsnri4bn/images/stencil/300x100/hawaiicoffeecompany_logo_1605656894__10541.original.png",
       "membership_level": "Gold"
     },
     {
@@ -13,7 +13,7 @@
       "address": "5678 Beach Road, Lahaina, HI",
       "phone": "808-555-5678",
       "website": "http://www.alohashaveice.com",
-      "image": "alohashaveice.jpg",
+      "image": "http://www.alohashaveice.com/alohahead.jpg",
       "membership_level": "Silver"
     },
     {
@@ -21,7 +21,7 @@
       "address": "910 Waikiki Beach Walk, Honolulu, HI",
       "phone": "808-555-9101",
       "website": "http://www.hulagrillwaikiki.com",
-      "image": "hulagrillwaikiki.jpg",
+      "image": "https://www.hulagrillwaikiki.com/wp-content/uploads/2023/05/hgw-logo-stacked.png",
       "membership_level": "Bronze"
     },
     {
@@ -29,7 +29,7 @@
       "address": "2345 Art Avenue, Kailua-Kona, HI",
       "phone": "808-555-2345",
       "website": "http://www.islandtreasuresart.com",
-      "image": "islandtreasuresart.jpg",
+      "image": "https://img.freepik.com/free-vector/paint-textures-background-design_1343-68.jpg?w=740&t=st=1687753828~exp=1687754428~hmac=b496d4e46c11ce1e0b202ec1e3fd0a8a0f7669c575d279ea732ffdee8ea57131",
       "membership_level": "Silver"
     },
     {
@@ -37,7 +37,7 @@
       "address": "6789 Tourist Lane, Kapaa, HI",
       "phone": "808-555-6789",
       "website": "http://www.paradisetours.com",
-      "image": "paradisetours.jpg",
+      "image": "https://oahuislandprivatetours.com/wp-content/uploads/2019/10/Oahu-Private-Tours-Logo-White-copy.png",
       "membership_level": "Gold"
     },
     {
@@ -45,7 +45,7 @@
       "address": "123 Palm Avenue, Wailea, HI",
       "phone": "808-555-1234",
       "website": "http://www.tropicalsparetreat.com",
-      "image": "tropicalsparetreat.jpg",
+      "image": "https://www.halekoa.com/application/files/8916/0322/0219/halekoalogo.png",
       "membership_level": "Bronze"
     },
     {
@@ -53,7 +53,7 @@
       "address": "456 Sunset Road, Poipu, HI",
       "phone": "808-555-4567",
       "website": "http://www.sunsetluau.com",
-      "image": "sunsetluau.jpg",
+      "image": "https://www.paradisecove.com/wp-content/themes/paradisecove/images/logo.png",
       "membership_level": "Silver"
     },
     {
@@ -61,7 +61,7 @@
       "address": "789 Brewery Lane, Kailua-Kona, HI",
       "phone": "808-555-7890",
       "website": "http://www.konabrewingco.com",
-      "image": "konabrewingco.jpg",
+      "image": "https://cdn.builder.io/api/v1/image/assets%2F86605eed06ef45019f7ecd3be92a85c4%2F6031c2e797574ba6b37ee1d4f2135723?format=webp&width=1200",
       "membership_level": "Gold"
     },
     {
@@ -69,7 +69,7 @@
       "address": "101 Surf Street, Lahaina, HI",
       "phone": "808-555-1010",
       "website": "http://www.mauisurfschool.com",
-      "image": "mauisurfschool.jpg",
+      "image": "https://tygurneysurf.com/wp-content/uploads/2015/10/Ty-Gurney-Surf-School-Logo-Surf-Lessons-Waikiki-Oahu-Hawaii.png",
       "membership_level": "Bronze"
     }
   ]
