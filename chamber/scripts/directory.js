@@ -52,3 +52,11 @@ const displayBusinesses = (businesses) => {
 
   directory.appendChild(cards);
 };
+
+const listViewButton = document.getElementById('listViewButton');
+listViewButton.addEventListener('click', toggleListView);
+
+function toggleListView() {
+  const cards = document.querySelector('.cards');
+  cards.classList.toggle('list-view');
+}

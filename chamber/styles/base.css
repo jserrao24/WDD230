@@ -16,7 +16,7 @@ header, main, footer {
     margin: 0 auto;
 }
 
-/*Business Directory Style Bender */
+/* Business Directory Style Bender */
 
 .business-directory {
     text-align: center;
@@ -35,7 +35,7 @@ header, main, footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start; /* Updated */
+    align-items: flex-start;
   }
   
   .card {
@@ -44,7 +44,7 @@ header, main, footer {
     border-radius: 4px;
     padding: 20px;
     margin: 10px;
-    margin: 10px auto; 
+    margin: 10px auto;
   }
   
   .card h2 {
@@ -61,6 +61,24 @@ header, main, footer {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+  }
+  
+  /* List View */
+  .cards.list-view {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .cards.list-view .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .cards.list-view .card img {
+    display: none;
+  }
+  #listViewButton {
+    margin-top: 20px;
   }
 
 /*header*/
