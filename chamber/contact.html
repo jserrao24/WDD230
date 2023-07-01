@@ -14,11 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?famil
     
-</head>
-<body>  
-    <div id="banner">
-        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
-    </div>
+
+      
+    <div id=""> 
     <header> 
         <nav class="hawaii-nav">
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
@@ -27,7 +25,7 @@
               <li><a href="discover.html">Discover</a></li>
               <li><a href="directory.html">Directory</a></li>
               <li><a href="join.html">Join</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a class="active" href="contact.html">Contact</a></li>
             </ul>
             <div class="logo-header">
                 <span><a href="index.html"><img class="logo" src="images/hawaii-logo.png" alt="Website logo in"></a></span>
@@ -37,11 +35,11 @@
                 </section>
             </div>
             <ul id="primaryNav-1">
-                <li><a>Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active"href="contact.html">Contact</a></li>
               </ul>
             <div class="social">
                 <a href="https://facebook.com" target="_blank"><img class="facebook" src="images/f-logo-rgb-blue-48.png" alt="facebook icon"></a>
@@ -52,38 +50,30 @@
             <p><span id="currentdate"></span></p>
         </div>
     </header>
-    <main class="grid-home">
-        <section class="contact-section">
-            <h1>Contact Us</h1>
-            <div class="contact-info">
-                <h2>Chamber Office</h2>
-                <p>123 Main Street, Honolulu, Hawaii</p>
-                <p>Phone: 808-391-7982</p>
-                <p>Email: info@hawaiichamber.com</p>
-                <p>Office Hours: Monday-Friday, 9:00 AM - 5:00 PM</p>
-            </div>
-            <div class="contact-form">
-                <h2>General Inquiries</h2>
-                <form>
-                    <div>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div>
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
-                    </div>
-                    <div>
-                        <button type="submit">Send</button>
-                    </div>
-                </form>
-            </div>
-        </section>
-    </main>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Chamber of Commerce</h3>
+            <p>358 Main Street, City, State</p>
+            <p>Phone: (808) 456-5578</p>
+            <p>Email: hawaiichamber.gov</p>
+            <p>Office Hours: Monday-Friday, 9am-5pm</p>
+          </div>
+          <div class="contact-form">
+            <h3>General Inquiries</h3>
+            <form method="POST" action="/submit-form">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
     <footer>
         <div class="grid-footer">
             <div class="logo-footer">
@@ -105,7 +95,13 @@
     </footer>
     <script src="scripts/main.js"></script>
     <script src="scripts/header.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script>src="scripts/banner.js"</script>
+    
+    <script src="scripts/main.js"></script>
+
+    <script src="scripts/main2.js"></script>
+    
+    <script src="scripts/imagehandling.js"></script>
+    <script src="scripts/directory.js"></script>
+    
 </body>
 </html>
