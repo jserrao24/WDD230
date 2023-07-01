@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Hawaii Chamber of Commerce</title>
+    <meta name="description" content="Contact information for the Hawaii Chamber of Commerce">
+    <link rel="stylesheet" href="../styles/normalize.css">    
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?famil
+    
+</head>
+<body>  
+    <div id="banner">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
+    <header> 
+        <nav class="hawaii-nav">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul class="try" id="primaryNav">
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="directory.html">Directory</a></li>
+              <li><a href="join.html">Join</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="logo-header">
+                <span><a href="index.html"><img class="logo" src="images/hawaii-logo.png" alt="Website logo in"></a></span>
+                <section class="title">
+                    <h2>Hawaii</h2>
+                    <q class="m">Chamber of Commerce</q>
+                </section>
+            </div>
+            <ul id="primaryNav-1">
+                <li><a>Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank"><img class="facebook" src="images/f-logo-rgb-blue-48.png" alt="facebook icon"></a>
+                <a href="https://www.linkedin.com" target="_blank"><img class="linkedin" src="images/in-blue-48.png" alt="linkedin icon"></a>
+            </div>  
+        </nav>            
+        <div class="date">
+            <p><span id="currentdate"></span></p>
+        </div>
+    </header>
+    <main class="grid-home">
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <div class="contact-info">
+                <h2>Chamber Office</h2>
+                <p>123 Main Street, Honolulu, Hawaii</p>
+                <p>Phone: 808-391-7982</p>
+                <p>Email: info@hawaiichamber.com</p>
+                <p>Office Hours: Monday-Friday, 9:00 AM - 5:00 PM</p>
+            </div>
+            <div class="contact-form">
+                <h2>General Inquiries</h2>
+                <form>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="grid-footer">
+            <div class="logo-footer">
+                <span><a href="index.html"><img class="logo" src="images/hawaii-logo.png" alt="Website logo "></a></span>
+                <section class="address">
+                    <h2>Hawaii Chamber of Commerce</h2>
+                    <p class="lf">Honolulu Hawaii</p>
+                </section>
+            </div>
+            <div class="location">
+                <p class="l">Hawaiichamber.com<br>808 391 7982</p>
+                <p><a href="https://www.google.it/maps/place/Chamber+of+Commerce+Hawaii/@21.3069454,-157.8658329,17z/data=!3m1!4b1!4m6!3m5!1s0x7c006e7452ec94e5:0x6846fff2cf566bc7!8m2!3d21.3069454!4d-157.863258!16s%2Fg%2F1td60yr0" target="_blank">&#9872; Location Map</a></p>
+            </div>
+        </div>
+        <hr class="foot">
+        <br>
+        <p class="base">&#169; <span id="currentyear"></span> Hawaii Chamber<br>Jared-Serrao <br> WDD 230 Project <br> Last Update on <span id="lastUpdated"></span></p>
+        <p class="medium">&#169; <span id="currentyear-1"></span> Hawaii Chamber &#124; Jared-Serrao; WDD 230 Project &#124; Last Update on <span id="lastUpdated-1"></span></p> 
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/header.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script>src="scripts/banner.js"</script>
+</body>
+</html>
