@@ -1,0 +1,36 @@
+{
+    "fruits": [
+        {
+            "img" : "/BountifulFoods/images/fruits/apples.jpg",
+            "alt" : "apples"
+        },
+        {
+            "img":"/BountifulFoods/images/fruits/fruits.jpg",
+            "alt": "fruits"
+        },
+        {
+            "img":"/BountifulFoods/images/fruits/fruitss.jpg",
+            "alt": "fruitss"
+        },
+        {
+            "img":"/BountifulFoods/images/fruits/fruitsss.jpg",
+            "alt": "fruitsss"
+        },
+        {
+            "img":"/BountifulFoods/images/fruits/fruitssss.jpg",
+            "alt": "fruitssss"
+        },
+        {
+            "img":"/BountifulFoods/images/fruits/grapes.jpg",
+            "alt": "grapes"
+        },
+        {
+            "img":"/BountifulFoods/images/fruits/lemons.jpg",
+            "alt": "lemons"
+        },
+        {
+            "img":"/BountifulFoods/images/fruits/strawberries.jpg",
+            "alt": "strawberries"
+        }
+    ]
+}

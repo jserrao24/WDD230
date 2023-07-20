@@ -1,0 +1,79 @@
+@import "/BountifulFoods/styles/base.css";
+
+main h2 {
+    background-color: var(--accent-color-3);
+}
+
+main {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--accent-color-2);
+    color: var(--accent-color-white);
+}
+
+main :nth-child(3), main :nth-child(5) {
+    background-color: var(--accent-color-4);
+}
+
+div p {
+    text-align: center;
+    padding: 5%;
+}
+
+.text-highlight {
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+main section, section h3, main div {
+    margin: 0;
+    padding: 0;
+}
+
+#contact-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 0;
+    padding: 30px;
+}
+
+#contact-info h3 {
+    grid-area: 1/1/2/3;
+    padding: 3vw;
+}
+
+#contact-info h4, #contact-info p {
+    margin: 20px 0;
+}
+
+#contact-info h4 {
+    padding-right: 50px;
+    text-align: right;
+}
+
+#contact-info p {
+    text-align: left;
+    padding-left: 0;
+    background-color: var(--accent-color-3);
+}
+
+#location {
+    padding: 3vh;
+    background-color: var(--accent-color-4);
+}
+
+#location h5 {
+    padding: 20px;
+}
+
+
+footer {
+    margin: 0;
+    
+}

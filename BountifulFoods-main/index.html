@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+
+    <link rel="icon" type="image/png" href="images/bountiful-logo-transparent-no-text.png">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+<body>
+    <header>
+        <div class="radial" id="radial1"></div>
+        <div class="radial" id="radial2"></div>
+        <div class="radial" id="radial3"></div>
+        <img src="images/logo-with-outline.png" alt="Bountiful Foods logo" id="logo-img">
+        <h1>Bountiful Foods</h1>
+        <div id="social-media">
+            <a href="https://facebook.com" target="_blank"><img src="images/social-media-links/facebook.png" alt="Facebook Logo"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/social-media-links/instagram.png" alt="instagram logo"></a>
+            <a href="https://twitter.com" target="_blank"><img src="images/social-media-links/twitter.png" alt="twitter logo"></a>
+        </div>
+        <nav id="header-nav">
+            <ul>
+                <li><a href="index.html" id="open-tab">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to Bountiful Foods Home Page!</h2>
+        
+        <!-- Image Highlight Section -->
+        <div id="img-section">
+            
+        </div>
+        
+        <!-- Summary Info Section -->
+        <section id="summary-info">
+            <h3>Ventura County</h3>
+            <picture id="ventura-img">
+                <img src="images/main/ventura.jpg" alt="Ventura">
+            </picture>
+            <p>Ventura County is a county in the southern part of the U.S. 
+                state of California. As of the 2020 census, the population 
+                was 843,843. The largest city is Oxnard, and the county seat 
+                is the city of Ventura. 
+                <br>
+                 Ventura County comprises the Oxnard-Thousand Oaks-Ventura, 
+                 CA Metropolitan Statistical Area, which is part of the Greater 
+                 Los Angeles area (Los Angeles-Long Beach, CA Combined Statistical 
+                 Area). It is also considered the southernmost county along the 
+                 California Central Coast.</p>
+            <p><a href="https://en.wikipedia.org/wiki/Ventura_County,_California">Source</a></p>
+            
+        </section>
+        
+        <!-- CTA -->
+        <section id="cta-section">
+            <h3>Build your own drink!</h3>
+            <form action="fresh.html" target="_blank">
+                <picture>
+                    <img src="images/main/fruit-drink.jpg" alt="fruit-drink">
+
+                </picture>
+                <p>Click the button below to create your own drink.</p>
+                <button>Create</button>
+            </form>
+            
+        </section>
+        
+        <!-- Weather Section -->
+        <section id="weather-section">
+            <h3>Weather</h3>
+            
+        </section>
+        
+        <!-- Info Card -->
+        <section id="info-card">
+            <h3>Your Creations</h3>
+            <p>Your number of created drinks:<br><br><span id="totalJuice"></span></p>
+            <script src="scripts/juice-created.js"></script>
+        </section>
+        
+        
+    </main>
+    <footer>
+        <div class="location">
+            <h3>Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.86080965448!2d-117.287802!3d33.12151955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA%2C%20USA!5e0!3m2!1sen!2sph!4v1671080362434!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+        
+        <div class="contact-info">
+            
+        </div>
+        <p>&copy; 2023 | Bountiful Foods | Jared Serrao</p>
+        <p>WDD 230 Web Frontend Development</p>
+
+        <br>
+        <p>Last Updated: <span id="lastModified"></span></p>
+        
+    </footer>
+
+    <div class="footer-radial" id="radial4"></div>
+    <div class="footer-radial" id="radial5"></div>
+    <div class="footer-radial" id="radial6"></div>
+
+    <script src="scripts/home-highlight.js"></script>
+    <script src="scripts/fruit-drink-count.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/lastModified.js"></script>
+
+
+</body>
+</html>

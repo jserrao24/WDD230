@@ -1,0 +1,150 @@
+@import "/BountifulFoods/styles/base.css";
+
+@media only screen and (min-width: 980px) {
+    header  {
+        background-color: #00000050;
+        display: grid;
+        grid-template-columns: auto auto 1fr;
+        padding: 0;
+    }
+
+    #social-media {
+        grid-area: 1/3/2/4;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    #social-media img {
+        max-width: 100px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #logo-img {
+        background-color: #FFFFFF00;
+        border-radius: 100%;
+        padding: .05em;
+        margin: 20px 20px 0 20px;
+        grid-area: 1/1/3/2;
+    }
+
+    header h1 {
+        grid-area: 1/2/3/3;
+        text-align: left;
+        font-size: 5em;
+    }
+
+    #header-nav {
+        grid-area: 3/2/4/-1;
+        padding: 0 20px 0 0;
+        margin: 0;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    #header-nav ul, #header-nav ul li  {
+        padding: 0;
+        margin: 0;
+    }
+
+    #header-nav ul li a {
+        margin: 0 30px;
+        padding: 0;
+    }
+
+    main section, main div {
+        margin: 0;
+        padding: 0;
+    }
+    main h2 {
+        background-color: var(--accent-color-1);
+    }
+    
+
+    #img-section {
+        display: flex;
+        background-color: var(--accent-color-1);
+        padding: 0;
+    }
+    #img-section .imgCard {
+        min-width: 20%;
+        width: 25%;
+        height: 400px;
+        padding: 0;
+    }
+        #img-section picture img {
+        margin: 0;
+        height: 100%;
+        padding: 0;
+    }
+    #weather-section {
+        grid-area: 3/1/5/2;
+        background-color: var(--accent-color-4);
+        padding: 0;
+    }
+
+    #weather-section h3 {
+        padding: 0;
+        margin: 0;
+        margin: 40px 0 0;
+    }
+    
+    #weather-section article {
+        border: none;
+        margin: 0 auto;
+    }
+
+
+
+    #info-card {
+        grid-area: 3/2/4/3;
+        background-color: var(--accent-color-2);
+    }
+    
+    #cta-section {
+        grid-area: 4/2/5/3;
+    }
+    #cta-section form picture {
+        width: 60%;
+    }
+    #cta-section form picture img {
+        /* padding: 30px; */
+        max-width: 60%;
+        max-height: 350px;
+        width: 100%;
+        height: 50%;
+    }
+    
+    #summary-info {
+        grid-area: 5/1/6/3;
+        background-color: var(--accent-color-2);
+        padding: 30px 15%;
+    }
+
+    #summary-info a:hover {
+        color: var(--accent-color-4);
+    }
+
+    #summary-info picture {
+        height: 100%;
+    }
+    #summary-info picture img {
+        width: 60%;
+        height: 500px;
+    }
+
+    #totalJuice {
+        background-color: var(--accent-color-3);
+        padding: 0 7% 10px;
+        border-radius: 50px 50px 0 0;
+    }
+
+
+    footer {
+        min-height: 400px;
+    }
+
+}

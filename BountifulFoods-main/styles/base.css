@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rubik+Vinyl&display=swap');
+@import "/BountifulFoods/styles/keyframes.css";
+
+:root {
+    --primary-color: #0A0903;
+    --accent-color-1: #FF1F1F;
+    --accent-color-2: #FF8200;
+    --accent-color-3: #57721D;
+    --accent-color-4: #117F85;
+    --accent-color-white: #FFFFFF;
+
+    --input-color: #555;
+
+    --heading-font: 'Rubik Vinyl', cursive;
+    --paragraph-font: 'Raleway', sans-serif;
+
+    --transparent-background: #0A090390;
+
+    /* Radial Background */
+    --red-radial: radial-gradient(circle, #FF1F1F 0%, #ff000020 50%, #ff000000 60%);
+    --orange-radial: radial-gradient(circle, #ff8200 0%, #ff820020 40%, #ff820000 60%);
+    --green-radial: radial-gradient(circle, #57721D 0%, #57721D20 30%, #57721D00 60%);
+
+    /* Animations */
+    --animate-radial1: radialGradient 4s ease-in-out infinite alternate;
+    --animate-radial2: radialGradient 5s ease-in infinite alternate-reverse;
+    --animate-radial3: radialGradient 6s ease-out infinite alternate;
+    --animate-radial4: footerRadial 15s ease-in-out infinite alternate;
+    --animate-radial5: footerRadial 10s ease-in infinite alternate-reverse;
+    --animate-radial6: footerRadial 20s ease-out infinite alternate;
+
+}
+
+/* Basic Styles */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+    font-family: var(--heading-font);
+    margin: 0;
+}
+
+p, a, label, input, dl {
+    font-family: var(--paragraph-font);
+}
+
+picture {
+    position: relative;
+    overflow: hidden;
+    height: 30vh;
+}
+
+picture img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: var(--accent-color-white);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-color-2);
+}
+
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+button, form input.submitBtn  {
+    font-size: 2rem;
+    background-color: var(--accent-color-2);
+    padding: 20px;
+    margin: 0 auto 3vw;
+    border: none;
+    border-radius: 50px;
+    color: var(--accent-color-white);
+}
+
+button:hover, form input.submitBtn:hover {
+    cursor: pointer;
+    background-color: var(--accent-color-1);
+    transition: 0.5s;
+}
+
+button:active, form input.submitBtn:active  {
+    background-color: var(--accent-color-2);
+}
+
+/* Header Background Styles */
+.radial {
+    position: fixed;
+    width: fit-content;
+    height: max-content;
+}
+
+#radial1 {
+    background: var(--red-radial);
+    animation: var(--animate-radial1);
+    margin: -200px -250px 0 0;
+    z-index: -100;
+}
+
+#radial2 {
+    background: var(--orange-radial);
+    animation: var(--animate-radial2);
+    margin: -90px 250px;
+    z-index: -99;
+}
+
+#radial3 {
+    background: var(--green-radial);
+    animation: var(--animate-radial3);
+    z-index: -98;
+    margin: -80px;
+}
+
+
+/* Header Styles */
+header {
+    border: none;
+    max-width: 100vw;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: var(--transparent-background);
+    color: var(--accent-color-white);
+    margin: 0;
+    text-align: right;
+    padding-right: 5px;
+}
+
+#social-media {
+    grid-area: 1/3/3/4;
+    display: flex;
+    flex-direction: column;
+}
+
+#social-media img {
+    max-width: 40px;
+    width: 100%;
+    padding: 0 0 0 10px;
+    margin: 0 5px;
+}
+
+#logo-img {
+    width: 100%;
+    max-width: 150px;
+    position: relative;
+    grid-area: 1/1/3/2;
+    background-color: var(--accent-color-white);
+}
+
+header h1 {
+    margin-top: 5%;
+}
+
+header nav {
+    grid-area: 2/2/3/3;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 0 0 0 30px ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 0 0 0 30px;
+    color: var(--accent-color-white);
+}
+
+#open-tab {
+    color: var(--accent-color-2);
+}
+
+/* Main Styles */
+main {
+    background-color: var(--accent-color-white);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 80vh;
+    z-index: 999;
+}
+
+main h2{
+    font-size: 3rem;
+    color: var(--primary-color);
+    padding: 30px;
+    margin: 0;
+    color: var(--accent-color-white);
+    background-color: #57721D;
+}
+
+main h3 {
+    font-size: 2.5rem;
+    padding: 30px 0;
+}
+
+#img-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#img-section .imgCard {
+    height: 40vh;
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+    padding: 5px;
+}
+
+#img-section .imgCard img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    min-height: 100%;
+}
+
+
+/* Main Sections Styles */
+main section, main div {
+    /* background-color: var(--transparent-background); */
+    background-color: var(--accent-color-3);
+    margin: 20px 0;
+    padding: 10px;
+    color: var(--accent-color-white);
+}
+
+#summary-info #ventura-img {
+    /* height: 30%; */
+    overflow: hidden;
+}
+
+#summary-info picture img {
+    max-height: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+#totalJuice {
+    font-size: 10rem;
+    background-color: var(--accent-color-2);
+    padding: 0 40px 40px;
+    margin: 30px auto;
+}
+
+#weather-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#weather-section h3 {
+    grid-area: 1/1/2/3;
+}
+
+#weather-section article {
+    font-size: 1.3rem;
+    background-color: var(--accent-color-4);
+    color: var(--accent-color-white);
+    border: 5px solid var(--accent-color-white);
+    padding: 20px;
+}
+
+#weather-section article div{
+    background-color: var(--accent-color-4);
+
+}
+
+#weather-section img {
+    max-width: 50px;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: var(--transparent-background);
+    padding: 0 0 40px 0;
+    position: relative;
+    color: var(--accent-color-white);
+    min-height: 20vh;
+    max-height: 50vh;
+    z-index: 1;
+}
+
+footer p, footer h3 {
+    padding-left: 3vw;
+    margin: 0;
+}
+
+footer h3 {
+    padding: 20px 0 5px 3vw;
+    font-size: 2em;
+}
+
+iframe {
+    width: 70%;
+    padding: 0 0 3vw 3vw;
+}
+
+.footer-radial {
+    position: fixed;
+}
+
+#radial4 {
+    background: var(--red-radial);
+    animation: var(--animate-radial4);
+    margin:  0;
+    bottom: 0;
+    z-index: -97;
+}
+
+#radial5 {
+    background: var(--orange-radial);
+    animation: var(--animate-radial5);
+    margin:  0;
+    bottom: 0;
+    z-index: -96;
+}
+
+#radial6 {
+    background: var(--green-radial);
+    animation: var(--animate-radial6);
+    z-index: -95;
+    margin: 0;
+    bottom: 0;
+}
