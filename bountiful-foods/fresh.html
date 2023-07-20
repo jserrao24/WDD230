@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh &#124; Bountiful Foods</title>
+    <meta name="author" content="Isabelle FIEVRE">
+    <meta name="description" content="Bountiful Foods Fresh page by Isabelle FIEVRE for wdd230 final project">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">   
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>  
+    <header> 
+        <nav class="bountiful-nav">
+            <a class="image" href="index.html"><img id="logo" src="images/logo2.webp" alt="Website logo"></a>
+            <ul class="nav-li" id="primaryNav1">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="fresh.html">Fresh</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>
+            <button id="hamburgerBtn"><span>&#9776; Menu</span><span>X</span></button>
+            <div class="social">
+                <h3>Meet us on Social</h3>
+                <hr>
+                <div class="soci">
+                    <a href="https://facebook.com" target="_blank"><img class="facebook" src="images/facebook-blue-48.png" alt="facebook icon"></a>
+                    <a href="https://www.linkedin.com" target="_blank"><img class="linkedin" src="images/in-blue-48.png" alt="linkedin icon"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="images/instagram-48.png" alt="facebook icon"></a>
+                </div>
+            </div>
+            <div class="date">
+                <p><span id="currentdate"></span></p>
+            </div> 
+           <ul class="try" id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="fresh.html">Fresh</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>  
+        </nav>                
+    </header>
+    <main class="grid-fresh">
+        <div>
+            <h1>Build your own Speciality Drink</h1>
+            <form>
+                <div class="f-grid">
+                    <fieldset>
+                        <label class="info1">First Name<input id="name1" type="text" name="fname" required></label>
+                        <label class="info1">Email<input id="mail" type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="info1">Phone<input id="phone" type="tel" name="phone" required></label>
+                        <label class="info1">Select your 1<sup>st</sup> Fruit<select id="fruit1" name="fruit1" class="choice1"></select></label>
+                        <label class="info1">Select your 2<sup>nd</sup> Fruit<select id="fruit2" name="fruit2" class="choice2"></select></label> 
+                        <label class="info1">Select your 3<sup>rd</sup> Fruit<select id="fruit3" name="fruit3" class="choice3"></select></label>  
+                        <label class="info1">Special Instructions<textarea id="instructions" name="description"></textarea></label>
+                    </fieldset>
+                    <p><span class="speciality"></span></p>
+                </div>
+                <input type="submit" value="Build my Drink" class="subBtn" id="subBtn">
+                <div class="results"></div>
+            </form>    
+        </div>   
+    </main>
+    <footer>
+        <hr class="foot">
+        <div class="grid-footer">
+            <div class="logo-footer">
+                <span><a href="index.html"><img class="logo" src="images/logo2.webp" alt="Website logo"></a></span>
+                <section class="address">
+                    <h2>Bountiful Foods</h2>
+                    <p class="lf">6446 Merlin Dr<br> Carlsbad, CA 92011, USA</p>
+                </section>
+            </div>
+            <div class="location">
+                <p class="l"><a href="mailto:#?subject=Info">contact@bf.com</a><br>+1 858 000 0000</p>
+                <p><a href="https://www.google.com/maps/place/6446+Merlin+Dr,+Carlsbad,+CA+92011,+%C3%89tats-Unis/@33.1184203,-117.3093582,17z/data=!3m1!4b1!4m6!3m5!1s0x80dc73227630ab2f:0x87dd20d19eec8fec!8m2!3d33.1184158!4d-117.3067833!16s%2Fg%2F11c2ggfzj6?entry=ttu" target="_blank">&#127796; Carlsbad Location Map &#127796;</a></p>
+                <h3>We work with California Organic Farmers</h3>
+            </div>
+        </div>
+        <hr class="foot">
+        <br>
+        <p class="base">&#169; <span id="currentyear"></span> Bountiful Foods<br>Isabelle Fi&#232;vre <br> WDD 230 Final Project <br> Last Update on <span id="lastUpdated"></span></p>
+        <p class="medium">&#169; <span id="currentyear-1"></span> Bountiful Foods &#124; Isabelle Fi&#232;vre &#124; WDD 230 Final Project &#124; Last Update on <span id="lastUpdated-1"></span></p> 
+        <a href="resource.html" target="_blank">Resource</a>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/header.js"></script>
+    <script src="scripts/fresh.js"></script>    
+</body>
+</html>

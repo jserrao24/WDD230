@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <meta name="author" content="Isabelle FIEVRE">
+    <meta name="description" content="Bountiful Foods homepage by Isabelle FIEVRE for wdd230 final project">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">   
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>  
+    <header> 
+        <nav class="bountiful-nav">
+            <a class="image" href="index.html"><img id="logo" src="images/logo2.webp" alt="Website logo"></a>
+            <ul class="nav-li" id="primaryNav1">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>
+            <button id="hamburgerBtn"><span>&#9776; Menu</span><span>X</span></button>
+            <div class="social">
+                <h3>Meet us on Social</h3>
+                <hr>
+                <div class="soci">
+                    <a href="https://facebook.com" target="_blank"><img class="facebook" src="images/facebook-blue-48.png" alt="facebook icon"></a>
+                    <a href="https://www.linkedin.com" target="_blank"><img class="linkedin" src="images/in-blue-48.png" alt="linkedin icon"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="images/instagram-48.png" alt="facebook icon"></a>
+                </div>
+            </div>
+            <div class="date">
+                <p><span id="currentdate"></span></p>
+            </div> 
+           <ul class="try" id="primaryNav">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>  
+        </nav>               
+    </header>
+    <main class="grid-home">
+        <br>
+        <div class="container">
+          <!-- I don't use  loading="lazy" in the class mySlides because it creates a visual issue-->
+            <div class="mySlides">
+              <img src="https://via.placeholder.com/500x333" data-src="images/pexels-jane-doan-1132047.webp" alt="Fruits" >
+            </div>               
+            <div class="mySlides">
+              <img src="https://via.placeholder.com/500x333" data-src="images/pexels-denys-gromov-5668206.webp" alt="Fruit Water with lemon">
+            </div>          
+            <div class="mySlides">
+              <img src="https://via.placeholder.com/500x333" data-src="images/pexels-denys-gromov-5668258.webp" alt="Fruit Water with strawberry">
+            </div>          
+            <div class="mySlides">
+              <img src="https://via.placeholder.com/500x333" data-src="images/pexels-jill-wellington-39351.webp" alt="Grape">
+            </div>         
+            <div class="mySlides">
+              <img src="https://via.placeholder.com/500x333" data-src="images/pexels-ryan-baker-129574.webp" alt="Citrus">
+            </div>
+            <div class="mySlides">
+              <img src="https://via.placeholder.com/500x333" data-src="images/pexels-wendy-wei-1656663.webp" alt="Vegetables">
+            </div>
+            <div class="mySlides">
+              <img src="https://via.placeholder.com/500x333" data-src="images/pexels-sarah-chai-7263018.webp" alt="Fruit Bag">
+            </div>
+            <div class="mySlides">
+              <img src="https://via.placeholder.com/500x333" data-src="images/pexels-karina-zhukovskaya-11631746.webp" alt="Baskets">
+            </div>
+            <div class="mySlides">
+              <img src="https://via.placeholder.com/500x333" data-src="images/pexels-andre-saddi-13985154.webp" alt="Pizza">
+            </div>
+            <div class="mySlides">
+              <img src="https://via.placeholder.com/500x333" data-src="images/pexels-lisa-fotios-1152237.webp" alt="Salad">
+            </div>
+            <div class="mySlides">
+              <img src="https://via.placeholder.com/500x333" data-src="images/pexels-lisa-fotios-1351238.webp" alt="Bruschette">
+            </div>
+            <div class="mySlides">
+              <img src="https://via.placeholder.com/500x333" data-src="images/pexels-shameel-mukkath-14930536.webp" alt="Juice">
+            </div>
+            <div class="mySlides"><img src="https://via.placeholder.com/500x333" data-src="images/pexels-ylanite-koppens-2479242.webp" alt="Juice">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+            <div class="row1">
+              <div class="column1">
+                <img class="min" src="images/pexels-jane-doan-1132047-150.webp" style="width:100%" onclick="currentSlide(1)" alt="Our Organic Fruits" loading="lazy">
+              </div>
+              <div class="column1">
+                <img class="min" src="images/pexels-denys-gromov-5668206-150.webp" style="width:100%" onclick="currentSlide(2)" alt="Our Organic Fruit Water" loading="lazy">
+              </div>
+              <div class="column1">
+                <img class="min" src="images/pexels-denys-gromov-5668258-150.webp" style="width:100%" onclick="currentSlide(3)" alt="Our Oganic Fruit Water" loading="lazy">
+              </div>
+              <div class="column1">
+                <img class="min" src="images/pexels-jill-wellington-39351-150.webp" style="width:100%" onclick="currentSlide(4)" alt="Grape directly from California Farmers">
+              </div>
+              <div class="column1">
+                <img class="min" src="images/pexels-ryan-baker-129574-150.webp" style="width:100%" onclick="currentSlide(5)" alt="Citrus directly from California Farmers">
+              </div>
+              <div class="column1">
+                <img class="min" src="images/pexels-wendy-wei-1656663-150.webp" style="width:100%" onclick="currentSlide(6)" alt="Vegetables directly from California Farmers">
+              </div>
+              <div class="column1">
+                <img class="min" src="images/pexels-sarah-chai-7263018-150.webp" style="width:100%" onclick="currentSlide(7)" alt="Our Fruit Bag">
+              </div>
+              <div class="column1">
+                <img class="min" src="images/pexels-karina-zhukovskaya-11631746-150.webp" style="width:100%" onclick="currentSlide(8)" alt="Our Organic Basket">
+              </div>
+              <div class="column1">
+                <img class="min" src="images/pexels-andre-saddi-13985154-150.webp" style="width:100%" onclick="currentSlide(9)" alt="Our italian Pizza for the Italian Month">
+              </div>
+              <div class="column1">
+                <img class="min" src="images/pexels-lisa-fotios-1152237-150.webp" style="width:100%" onclick="currentSlide(10)" alt="Our italian Salad for the Italian Month">
+              </div>
+              <div class="column1">
+                <img class="min" src="images/pexels-lisa-fotios-1351238-150.webp" style="width:100%" onclick="currentSlide(11)" alt="Our italian Bruschette for the Italian Month">
+              </div>
+              <div class="column1">
+                <img class="min" src="images/pexels-shameel-mukkath-14930536-150.webp" style="width:100%" onclick="currentSlide(12)" alt="Our Organic Juices and Smoothies">
+              </div> 
+              <div class="column1">
+                <img class="min" src="images/pexels-ylanite-koppens-2479242-150.webp" style="width:100%" onclick="currentSlide(13)" alt="Our Organic Fruit Juice">
+              </div> 
+            </div>
+        </div>
+        <div class="home">
+          <div class="info">
+            <h2>Spotlight on Venice, L.A.</h2>
+            <h3>Italian Month</h3>
+            <p>&#127796; &#128676; &#127796;</p>
+            <br>
+            <div class="info-img">
+              <p>Venice is a bustling seaside neighborhood with commercial and residential areas. The free-spirited <b>Venice Boardwalk</b> features hip shops, street performers and colorful murals. There is also a <b>skatepark</b> and an outdoor gym called Muscle Beach. Gourmet restaurants, elegant boutiques and cafes are located on Abbot Kinney Boulevard. Modernist houses surround a picturesque network of landlocked <b>canals</b>.</p>
+              <div  class="choice">
+                <figure>
+                  <img src="images/pexels-ignacio-palés-2913873-250.webp" alt="Venice Skatepark Los Angeles" loading="lazy">
+                  <figcaption><b>Skatepark</b></figcaption>
+                </figure>
+                <figure>
+                  <img src="images/pexels-ivica-džambo-6547109-250.webp" alt="Venice Boardwalk Los Angeles" loading="lazy">
+                  <figcaption><b>Boardwalk</b></figcaption>
+                </figure>
+                <figure>
+                  <img src="images/pexels-rachel-xiao-772429-250.webp" alt="Venice Canal Los Angeles" loading="lazy">
+                  <figcaption><b>Canal</b></figcaption>
+                </figure>
+              </div> 
+              <br>
+              <h3>🚚 Our Food Truck in Venice</h3>
+              <p><b>Venice Beach</b><br>Every day from 10 a.m. to 10 p.m.<br><b>&#129530; Delivery of baskets</b><br>Mondays &#38; Wednesdays: 7am - 9am<br>Tuesdays &#38; Thursdays: 10pm - 11pm</p>
+              <br>
+              <p><a href="https://www.google.com/maps/place/Venice+Beach/@33.9874998,-118.4617151,14z/data=!4m15!1m8!3m7!1s0x80c2bac03052685d:0x8f1101b40d5c8d3c!2sVenice,+Los+Angeles,+Californie,+%C3%89tats-Unis!3b1!8m2!3d33.9850469!4d-118.4694832!16zL20vMDdfZmw!3m5!1s0x80c2baa3d830ffaf:0x702ba9344b986071!8m2!3d33.9764002!4d-118.4667452!16s%2Fg%2F122h5tft?entry=ttu" target="_blank">&#127796; Venice Beach Location &#127796;</a></p>
+              <br>
+              <h3>Our Services in Venice</h3>
+              <p>Drinks, Food, and Delivery</p>
+              <p><b>and also for the Italian Month</b><br>Italian products and specialties: tomatoes, olives, basil, oregano, olive oils, cheeses, healthy pizzas, and much more</p>
+            </div>
+            <br>  
+          </div>
+          <div class="fresh">
+            <img src="images/pexels-shameel-mukkath-14930536-250.webp" alt=" Fruit Juices">
+              <p>Make your own fruit drink mix !&#33;</p>
+              <a class="join-fresh" href="fresh.html">Be Fresh&#33;</a>
+              <p><span class="number1"></span></p>
+          </div>
+          <div class="weather">
+            <div class="current-weather">
+                <h2>Carlsbad Current Weather</h2> 
+                <div class="today">
+                    <figure class="figure">
+                        <img src="#" alt=" " id="weather-icon" loading="lazy">
+                        <figcaption id="figc"></figcaption>
+                    </figure>
+                    <div class="result">
+                        <p><span id="temperature"></span> &#176;F</p>
+                        <p>Humidity: <span id="humidity"></span>&#37;</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="forecast">
+                <h2> 3&#45;Day Weather Forecast </h2>
+                <div class="days">
+                    <div class="1">
+                        <h3 id="day1">d1</h3>
+                        <div>
+                            <p><span id="temperature1"></span> &#176;F</p>
+                        </div>
+                    </div>
+                    <div class="2">
+                        <h3 id="day2">d2</h3>
+                        <div>
+                            <p><span id="temperature2"></span> &#176;F</p>
+                        </div>   
+                    </div>
+                     <div class="3">
+                        <h3 id="day3">d3</h3>
+                        <div>
+                            <p><span id="temperature3"></span> &#176;F</p>
+                        </div>
+                     </div>
+                </div>       
+            </div>       
+        </div>
+        </div>     
+    </main>
+    <footer>
+        <hr class="foot">
+        <div class="grid-footer">
+            <div class="logo-footer">
+                <span><a href="index.html"><img class="logo" src="images/logo2.webp" alt="Website logo"></a></span>
+                <section class="address">
+                    <h2>Bountiful Foods</h2>
+                    <p class="lf">6446 Merlin Dr<br> Carlsbad, CA 92011, USA</p>
+                </section>
+            </div>
+            <div class="location">
+              <p class="l"><a href="mailto:#?subject=Info">contact@bf.com</a><br>+1 858 000 0000</p>
+              <p><a href="https://www.google.com/maps/place/6446+Merlin+Dr,+Carlsbad,+CA+92011,+%C3%89tats-Unis/@33.1184203,-117.3093582,17z/data=!3m1!4b1!4m6!3m5!1s0x80dc73227630ab2f:0x87dd20d19eec8fec!8m2!3d33.1184158!4d-117.3067833!16s%2Fg%2F11c2ggfzj6?entry=ttu" target="_blank">&#127796; Carlsbad Location Map &#127796;</a></p>
+              <h3>We work with California Organic Farmers</h3>
+          </div>
+        </div>
+        <hr class="foot">
+        <br>
+        <p class="base">&#169; <span id="currentyear"></span> Bountiful Foods<br>Isabelle Fi&#232;vre <br> WDD 230 Final Project <br> Last Update on <span id="lastUpdated"></span></p>
+        <p class="medium">&#169; <span id="currentyear-1"></span> Bountiful Foods &#124; Isabelle Fi&#232;vre &#124; WDD 230 Final Project &#124; Last Update on <span id="lastUpdated-1"></span></p> 
+        <a href="resource.html" target="_blank">Resource</a>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/header.js"></script>
+    <script src="scripts/lazyloading.js"></script>
+    <script src="scripts/slide.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+    <script src="scripts/speciality.js"></script>
+</body>
+</html>

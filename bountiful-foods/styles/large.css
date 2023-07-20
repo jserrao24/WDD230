@@ -1,0 +1,101 @@
+@media only screen and (min-width: 73.5em) {
+    header, nav, main, section, footer {
+        max-width: 1800px;
+    }
+    header {margin-top: 1rem;}
+    .bountiful-nav {
+        display: grid;
+        margin: auto 1rem;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 80% 20%;
+        grid-template-areas:
+        'image nav-li social'
+        'image date social';
+        align-items: center;
+    }
+    #logo {
+        border-radius: 50%;
+        max-width: 180px;   
+    }
+    #logo:hover { max-width: 190px;}
+    .bountiful-nav ul li a { font-size: 1.8rem;}
+    .social { grid-area: social;}
+    .date {
+        grid-area: date;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .social {
+        display: flex;
+        flex-direction: column;
+        border: 3px inset #74bc2c;
+        border-radius: 25px;
+        padding: 0.5rem;
+        margin: 1rem auto;
+        max-width: 150px;
+      }
+    .soci {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 0.2rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+    .social h3 {
+        display: inline-block;
+        text-align: center;
+        margin: 1rem 1rem 0 1rem;
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+    .social hr {
+        display: block;
+        height: 2px;
+        margin: 1rem;
+      }
+    .home-title { font-size: 2.2rem;}
+    .prev { left: 4rem;	}
+    .next { right: 4rem;}
+    .caption-container p {font-size: 2rem;}
+    .mySlides img { width: 40%;} 
+    .home {
+        display: grid;
+        grid-template-columns: 5% 30% 60% 5%;
+        grid-template-rows: 50% 25% 25%;
+        grid-template-areas: 
+        '. fresh info .'
+        '. weather info .'
+        '. weather info .';
+    }
+    .fresh {
+        grid-area: fresh;
+        margin: 2rem auto 1rem auto;
+        padding: 2rem 0;
+    }
+    .fresh img { max-width: 70%;}
+    .info { 
+        grid-area: info;
+        width: 600px;
+        height: 650px;
+    }
+   .weather {
+    grid-area: weather;
+    display:block;
+	margin: 0.5rem auto;
+    }
+    .current-weather { margin-top: 0.5rem;}
+    /* fresh */ 
+    .grid-fresh h1 { font-size: 2rem;}
+    /* about us */
+    .grid-us h1{ font-size: 2rem;}
+    .grid-us p { margin: 1rem 6rem;}
+    .location1 p {margin: 1rem;}
+    .gmap-canvas, .gmap-iframe {
+        width:720px;
+        height:480px;
+    }
+    /* footer */
+    footer p {
+        font-size: 1rem;
+    }
+}

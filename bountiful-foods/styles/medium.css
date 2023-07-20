@@ -1,0 +1,114 @@
+@media only screen and (min-width: 37.5em) {
+    header, nav, main, section, footer {
+        max-width: 1175px;
+    }
+    nav button { display: none; }
+    #primaryNav1 { display: grid;}
+    #primaryNav { display:none;}
+    .bountiful-nav {
+        display: grid;
+        margin: auto 1rem;
+        grid-template-columns: 20% 10% 65% 5%;
+        grid-template-rows: 80% 20%;
+        grid-template-areas:
+        'image nav-li nav-li .'
+        'social . date .';
+        align-items: center;
+    }
+    .image { grid-area: image;}
+    .nav-li {grid-area: nav-li;}
+    .bountiful-nav ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.4rem;
+    }
+    .bountiful-nav ul li a { 
+        padding: 0.5em;
+        font-size: 1.2rem;
+        border-radius: 15px;
+    }
+    .social { grid-area: social;}
+    .social hr { display: none;}
+    .date {
+        grid-area: date;
+        text-align: end;
+    }
+    .home-title { font-size: 1.8rem;}  
+    .grid-home { margin-top: 3rem;}
+    .prev { left: 1rem;}
+    .next { right: 1rem;}
+    .caption-container p { font-size: 1.6rem;}
+    .info { 
+        grid-area: info;
+        width: 560px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        height: 300px;
+    }
+    .info img { transition: 0.5s;}
+    .info img:hover{ transform: scale(2.3);}
+    .choice {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 0.3rem;
+        margin: 0.1rem auto;
+    }
+    .choice img {
+        display: block;
+        max-width: 50%;
+        height: auto;
+    }
+    .weather {
+        display: grid;
+        grid-template-columns: 1% 49% 1% 49% 1%;
+        grid-template-areas: 
+        '. cw . f .';
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        justify-content: center;    
+    }
+    .current-weather { margin: 1rem;}
+    .today { column-gap: 0.2rem;}
+    .days { column-gap: 0.5rem;}
+    /* fresh */
+    .grid-fresh h1 { font-size: 1.5rem;}
+    .subBtn {font-size: 1.3rem;}
+    /* about us */
+    .grid-us h1{ font-size: 1.5rem;}
+    .grid-us p { margin: 1rem 3rem;}
+    .location1{ width: 400px;}
+    #location { width: 60%;}
+   .gmap-canvas, .gmap-iframe {
+        width:540px;
+        height:360px;
+    }
+    /*footer*/
+    .base {display: none;}
+    .medium {display: block;}
+    footer p {font-size: 0.8rem;}
+    .grid-footer {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        align-items: center;
+    }
+    footer hr {margin-bottom: 0.5rem;}
+    .location, .medium {line-height: 1.5;}
+    @media only screen and (min-width: 40em) {
+        footer p {font-size: 1rem;}
+        .home-title { font-size: 2rem;} 
+        .current-weather { margin: 1rem 2rem;}
+        .today, .days { column-gap: 1rem;}   
+        .days h3 {font-size: 1rem;}
+        .mySlides img { width: 50%;}
+        .prev { left: 2.5rem;	}
+        .next { right: 2.5rem;}
+    }
+    @media only screen and (max-width: 780px) {
+        .grid-footer {
+            display: grid;
+            grid-template-columns: 1fr 1.8fr;
+        }
+        footer h3 {font-size: 1rem;}
+    }
+}    
